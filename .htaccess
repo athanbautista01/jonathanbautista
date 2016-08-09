@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
-errorDocument 400 http://jonathanbautistaph.azurewebsites.net/error
-errorDocument 401 http://jonathanbautistaph.azurewebsites.net/error
-errorDocument 404 http://jonathanbautistaph.azurewebsites.net/error
-errorDocument 500 http://jonathanbautistaph.azurewebsites.net/error
